@@ -7,7 +7,7 @@ import Contacts from './components/contactsPage/Contacts.js'
 
 function App () {
   return (
-      <BrowserRouter basename='/'>
+      <BrowserRouter basename='/myresume'>
         <Switch>
           <Route path = '/' component = {About} exact/>
           <Route path = '/resume' component = {Resume} exact/>
