@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Aman-resume/static/css/main.c1da670c.chunk.css",
+    "main.js": "/Aman-resume/static/js/main.70938ea0.chunk.js",
+    "main.js.map": "/Aman-resume/static/js/main.70938ea0.chunk.js.map",
+    "runtime-main.js": "/Aman-resume/static/js/runtime-main.daae82ec.js",
+    "runtime-main.js.map": "/Aman-resume/static/js/runtime-main.daae82ec.js.map",
+    "static/js/2.ffb8fd9c.chunk.js": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js",
+    "static/js/2.ffb8fd9c.chunk.js.map": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js.map",
+    "index.html": "/Aman-resume/index.html",
+    "precache-manifest.29a73894ca47be25f463b8c720af6746.js": "/Aman-resume/precache-manifest.29a73894ca47be25f463b8c720af6746.js",
+    "service-worker.js": "/Aman-resume/service-worker.js",
+    "static/css/main.c1da670c.chunk.css.map": "/Aman-resume/static/css/main.c1da670c.chunk.css.map",
+    "static/js/2.ffb8fd9c.chunk.js.LICENSE.txt": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js.LICENSE.txt",
+    "static/media/modal.module.css": "/Aman-resume/static/media/vscode.2fc96697.jpg",
+    "static/media/close-3.png": "/Aman-resume/static/media/close-3.482fb139.png",
+    "static/media/code.jpeg": "/Aman-resume/static/media/code.a9be1b48.jpeg",
+    "static/media/skills.module.css": "/Aman-resume/static/media/react.61e3d5ce.jpg",
+    "static/media/phone-icon-935.png": "/Aman-resume/static/media/phone-icon-935.bd13e7af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daae82ec.js",
+    "static/js/2.ffb8fd9c.chunk.js",
+    "static/css/main.c1da670c.chunk.css",
+    "static/js/main.70938ea0.chunk.js"
+  ]
+}
