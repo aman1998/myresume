@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myresume/static/css/main.e4893237.chunk.css",
+    "main.js": "/myresume/static/js/main.7faa3bec.chunk.js",
+    "main.js.map": "/myresume/static/js/main.7faa3bec.chunk.js.map",
+    "runtime-main.js": "/myresume/static/js/runtime-main.17f9af87.js",
+    "runtime-main.js.map": "/myresume/static/js/runtime-main.17f9af87.js.map",
+    "static/js/2.ffb8fd9c.chunk.js": "/myresume/static/js/2.ffb8fd9c.chunk.js",
+    "static/js/2.ffb8fd9c.chunk.js.map": "/myresume/static/js/2.ffb8fd9c.chunk.js.map",
+    "index.html": "/myresume/index.html",
+    "precache-manifest.a47b73fc31204a8b24dc728d9db4a3f7.js": "/myresume/precache-manifest.a47b73fc31204a8b24dc728d9db4a3f7.js",
+    "service-worker.js": "/myresume/service-worker.js",
+    "static/css/main.e4893237.chunk.css.map": "/myresume/static/css/main.e4893237.chunk.css.map",
+    "static/js/2.ffb8fd9c.chunk.js.LICENSE.txt": "/myresume/static/js/2.ffb8fd9c.chunk.js.LICENSE.txt",
+    "static/media/modal.module.css": "/myresume/static/media/vscode.2fc96697.jpg",
+    "static/media/close-3.png": "/myresume/static/media/close-3.482fb139.png",
+    "static/media/code.jpeg": "/myresume/static/media/code.a9be1b48.jpeg",
+    "static/media/skills.module.css": "/myresume/static/media/react.61e3d5ce.jpg",
+    "static/media/phone-icon-935.png": "/myresume/static/media/phone-icon-935.bd13e7af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17f9af87.js",
+    "static/js/2.ffb8fd9c.chunk.js",
+    "static/css/main.e4893237.chunk.css",
+    "static/js/main.7faa3bec.chunk.js"
+  ]
+}
