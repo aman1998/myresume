@@ -1,0 +1,29 @@
+.btn {
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    transition: all 0.5s linear;
+    padding: 15px 0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgb(83, 5, 5);
+}
+
+.btn:hover span  {
+    transition: all 0.5s linear;
+}
+
+.btn--rotate:hover {
+    box-shadow: 0 0 10px rgb(59, 57, 218);
+}
+
+.btn--rotate:hover span {
+    display: block;
+    transform: rotate(720deg);
+}

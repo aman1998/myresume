@@ -1,0 +1,123 @@
+.modal {
+    display: block;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.skills__modal {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* display: none; */
+    background: url('../skills/img/vscode.jpg') center/cover;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background: #fff; */
+}
+
+.close:hover {
+    background: rgba(63, 59, 59, 0.527);
+    border: 1px solid rgb(80, 72, 72);
+}
+
+.animation {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    margin-left: -50px;
+    opacity: 0;
+    border-radius: 10px;
+    animation-name: animations;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.animation--1 {
+    background: url('../skills/img/less.jpg') center/cover;
+    top: 25%;
+    transform: translateY(-25%);
+    animation-delay: 1s;
+    animation-name: animations, less;
+}
+.animation--2 {
+    background: url('../skills/img/sass.jpg') center/cover;
+    top: 0;
+    animation-delay: 3s;
+}
+.animation--3 {
+    background: url('../skills/img/bem.jpeg') center/cover;
+    top: 50%;
+    transform: translateY(-50%);
+    animation-name: animations, bem;
+    animation-delay: 5s;
+}
+.animation--4 {
+    background: url('../skills/img/grid.png') center/cover;
+    top: 75%;
+    transform: translateY(-75%);
+    animation-name: animations, css-grid;
+    animation-delay: 7s;
+}
+.animation--5 {
+    background: url('../skills/img/bootstrap.jpg') center/cover;
+    top: 100%;
+    transform: translateY(-100%);
+    animation-delay: 9s;
+}
+
+@keyframes animations {
+    0% {
+        opacity: 0;
+        left: 0%;
+    }
+
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        left: 90%;
+    }
+}
+
+@keyframes css-grid {
+    50% {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@keyframes less {
+    50% {
+        border-radius: 50%;
+    }
+}
+
+.modal__animation {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+    @keyframes fade {
+        from {
+        opacity: 0.1;
+        }
+        to {
+        opacity: 1;
+        }
+}

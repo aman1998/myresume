@@ -1,0 +1,116 @@
+.skills {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.skills__container {
+    max-width: 1200px;
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.title {
+    font-size: var(--titleSize);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.block{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    transition: all 0.3s linear;
+    box-shadow: inset 22px 10px 85px rgba(58, 55, 55, 0.712);
+}
+
+.block ul {
+    padding: 20px 0 0 10px;
+}
+
+.block ul li {
+    margin-bottom: 5px;
+}
+
+.block:hover {
+    transform: scale3d(1,1.1,1);
+}
+
+.html {
+    background: url('./img//html.jpg') center/cover;
+}
+
+.css {
+    background: url('./img/css.jpg') center/cover;
+    box-shadow: inset 22px 10px 85px rgba(36, 35, 35, 0.836);
+    opacity: 0.7;
+}
+
+.css:hover {
+    transform: none;
+}
+
+.javascript {
+    background: url('./img/javascript3.jpg') center/cover;
+}
+
+.react {
+    background: url('./img//react.jpg') center/cover;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn div {
+    margin-top: 100px;
+    color: rgb(10, 10, 10);
+    font-weight: 800;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .block{
+        max-width: 200px;
+        max-height: 200px;
+        
+    }
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .block{
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .block{
+        width: 100%;
+        max-width: 600px;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(2, 1fr); */
+    }
+}
+
+
