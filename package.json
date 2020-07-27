@@ -13,11 +13,7 @@
     "react-slick": "^0.26.1",
     "slick-carousel": "^1.8.1"
   },
-<<<<<<< HEAD
-  "homepage": "http://aman1998.github.io/about",
-=======
   "homepage": "http://aman1998.github.io/myresume",
->>>>>>> 351ac655a91594737ef8201b86e860875017a896
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
