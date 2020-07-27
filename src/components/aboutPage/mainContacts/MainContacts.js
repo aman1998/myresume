@@ -18,7 +18,7 @@ function MainContacts () {
         {title: 'Мырзабеков Амангельди Медетбекович', className: styles['contacts__item']},
         {title: '17.03.1998', className: styles['contacts__item']},
         {title: '+996 555 82 28 37', className: styles['contacts__item']},
-        {title: 'amangeldi-1998@mail.ru', className: styles['contacts__item']},
+        {title: '1998-amangeldi@mail.ru', className: styles['contacts__item']},
         {title: 'г. Бишкек, Сыдыкова 161', className: styles['contacts__item']},
     ]);
 
