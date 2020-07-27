@@ -1,7 +1,11 @@
-#instagram, #linkedin, #telegram, #vkontakte {
+#instagram, #linkedin, #telegram, #vkontakte, #user {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+}
+
+#user {
+    fill: #fff;
 }
 
 

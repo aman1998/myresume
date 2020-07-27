@@ -56,3 +56,11 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .phone__block {
+        right: 20px;
+        bottom: 20px;
+        transform: translate(0, 0);
+    }
+}

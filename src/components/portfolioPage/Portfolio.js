@@ -2,11 +2,14 @@ import React from 'react';
 import NavBar from '../navBar/Nav.js';
 import styles from './portfolio.module.css';
 import Btn from '../btn/Btn.js'
+import portfolioImg1 from '../portfolioPage/img1.png'
+import portfolioImg2 from '../portfolioPage/img2.png'
+import Phone from '../phone/Phone.js'
 
 function Portfolio () {
     const portfolio = [
-        {type: 'React', title: 'Проект 1', descr: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus corporis facilis nulla in perspiciatis amet error iusto adipisci labore?', link: ''},
-        {type: 'Vanilla', title: 'Проект 2', descr: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus corporis facilis nulla in perspiciatis amet error iusto adipisci labore?', link: ''},
+        {type: 'React', title: 'Prodam.kg', descr: 'Сайт для купли-продажи различных товаров', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
+        {type: 'React', title: 'Portfolio', descr: 'Портфолио (на гитхабе есть версия на чистом JS)', link: 'https://github.com/aman1998/myresume', deploy: '', img: portfolioImg2},
     ]
     return (
         <div>
@@ -19,20 +22,22 @@ function Portfolio () {
                                     <div className = {styles['projects__item-text']}>
                                         <h2 className = {styles['project__title']}>{`${item.title} / ${item.type}`}</h2>
                                         <div className = {styles['project__description']}>{item.descr}</div>
-                                        <div style = {{display: 'flex'}}>
+                                        <div style = {{display: 'flex'}} className={styles.btn}>
                                             <div className = {styles.icons}>
                                                 <Btn link = {item.link} text = 'GitHub'/>
                                                 <br />
-                                                <Btn link = {item.link} text = 'Перейти'/>
+                                                <Btn link = {item.deploy} text = 'Перейти'/>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className = {styles['projects__item-img']}></div>
+                                    <div className = {styles[`projects__item-img`]}><img src={item.img} className={styles.img} /></div>
                                 </div>
                             ))}
                     </div>
                 </div>
             </section>
+            <Phone />
+            <header style = {{textAlign: 'center', marginBottom: '8px'}}>1998-amangeldi@mail.ru</header>
         </div>
     )
 }

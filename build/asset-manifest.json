@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Aman-resume/static/css/main.c1da670c.chunk.css",
-    "main.js": "/Aman-resume/static/js/main.70938ea0.chunk.js",
-    "main.js.map": "/Aman-resume/static/js/main.70938ea0.chunk.js.map",
-    "runtime-main.js": "/Aman-resume/static/js/runtime-main.daae82ec.js",
-    "runtime-main.js.map": "/Aman-resume/static/js/runtime-main.daae82ec.js.map",
-    "static/js/2.ffb8fd9c.chunk.js": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js",
-    "static/js/2.ffb8fd9c.chunk.js.map": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js.map",
-    "index.html": "/Aman-resume/index.html",
-    "precache-manifest.29a73894ca47be25f463b8c720af6746.js": "/Aman-resume/precache-manifest.29a73894ca47be25f463b8c720af6746.js",
-    "service-worker.js": "/Aman-resume/service-worker.js",
-    "static/css/main.c1da670c.chunk.css.map": "/Aman-resume/static/css/main.c1da670c.chunk.css.map",
-    "static/js/2.ffb8fd9c.chunk.js.LICENSE.txt": "/Aman-resume/static/js/2.ffb8fd9c.chunk.js.LICENSE.txt",
-    "static/media/modal.module.css": "/Aman-resume/static/media/vscode.2fc96697.jpg",
-    "static/media/close-3.png": "/Aman-resume/static/media/close-3.482fb139.png",
-    "static/media/code.jpeg": "/Aman-resume/static/media/code.a9be1b48.jpeg",
-    "static/media/skills.module.css": "/Aman-resume/static/media/react.61e3d5ce.jpg",
-    "static/media/phone-icon-935.png": "/Aman-resume/static/media/phone-icon-935.bd13e7af.png"
+    "main.css": "/about/static/css/main.eb7aac0e.chunk.css",
+    "main.js": "/about/static/js/main.70938ea0.chunk.js",
+    "main.js.map": "/about/static/js/main.70938ea0.chunk.js.map",
+    "runtime-main.js": "/about/static/js/runtime-main.47ed9446.js",
+    "runtime-main.js.map": "/about/static/js/runtime-main.47ed9446.js.map",
+    "static/js/2.ffb8fd9c.chunk.js": "/about/static/js/2.ffb8fd9c.chunk.js",
+    "static/js/2.ffb8fd9c.chunk.js.map": "/about/static/js/2.ffb8fd9c.chunk.js.map",
+    "index.html": "/about/index.html",
+    "precache-manifest.eb4160353123642949d5495f44a40874.js": "/about/precache-manifest.eb4160353123642949d5495f44a40874.js",
+    "service-worker.js": "/about/service-worker.js",
+    "static/css/main.eb7aac0e.chunk.css.map": "/about/static/css/main.eb7aac0e.chunk.css.map",
+    "static/js/2.ffb8fd9c.chunk.js.LICENSE.txt": "/about/static/js/2.ffb8fd9c.chunk.js.LICENSE.txt",
+    "static/media/modal.module.css": "/about/static/media/vscode.2fc96697.jpg",
+    "static/media/close-3.png": "/about/static/media/close-3.482fb139.png",
+    "static/media/code.jpeg": "/about/static/media/code.a9be1b48.jpeg",
+    "static/media/skills.module.css": "/about/static/media/react.61e3d5ce.jpg",
+    "static/media/phone-icon-935.png": "/about/static/media/phone-icon-935.bd13e7af.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.daae82ec.js",
+    "static/js/runtime-main.47ed9446.js",
     "static/js/2.ffb8fd9c.chunk.js",
-    "static/css/main.c1da670c.chunk.css",
+    "static/css/main.eb7aac0e.chunk.css",
     "static/js/main.70938ea0.chunk.js"
   ]
 }
