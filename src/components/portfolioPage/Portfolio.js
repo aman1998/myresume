@@ -13,7 +13,7 @@ function Portfolio () {
         {type: 'React', title: 'Prodam.kg', descr: 'Дипломная работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
         {type: 'React', title: 'Arena-games', descr: 'Реальная разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/ErlanArtykbaev/pubg-ui', deploy: 'https://arenagames.io/', img: portfolioImg2},
         {type: 'CSS-GRID', title: 'Fanci', descr: 'Верстка', link: 'https://github.com/aman1998/IROKEZ', deploy: 'https://aman1998.github.io/IROKEZ/', img: portfolioImg3},
-        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники (в процессе)', link: 'https://github.com/aman1998/Mateev-clinic', deploy: 'https://github.com/aman1998/Mateev-clinic', img: portfolioImg4},
+        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники (в процессе)', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://github.com/aman1998/Dr.Mateev-Clinic', img: portfolioImg4},
     ]
     return (
         <div>
