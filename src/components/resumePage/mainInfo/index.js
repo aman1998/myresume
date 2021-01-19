@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 function MainInfo () {
     return (
     <div className={styles.wrapper}>
-        <div className={styles.avatar}></div>
+        {/* <div className={styles.avatar}></div> */}
         <div>
             <div className={styles.name}>Мырзабеков Амангельди Медетебекович</div>
             <div className={styles.job}><span>Frontend</span>-разработчик</div>

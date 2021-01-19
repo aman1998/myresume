@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/myresume/static/css/main.957e29df.chunk.css",
-    "main.js": "/myresume/static/js/main.df0d75a4.chunk.js",
-    "main.js.map": "/myresume/static/js/main.df0d75a4.chunk.js.map",
+    "main.css": "/myresume/static/css/main.24a867fa.chunk.css",
+    "main.js": "/myresume/static/js/main.af4e00b3.chunk.js",
+    "main.js.map": "/myresume/static/js/main.af4e00b3.chunk.js.map",
     "runtime-main.js": "/myresume/static/js/runtime-main.17f9af87.js",
     "runtime-main.js.map": "/myresume/static/js/runtime-main.17f9af87.js.map",
     "static/js/2.5562c606.chunk.js": "/myresume/static/js/2.5562c606.chunk.js",
     "static/js/2.5562c606.chunk.js.map": "/myresume/static/js/2.5562c606.chunk.js.map",
     "index.html": "/myresume/index.html",
-    "precache-manifest.7548401e08a64e26d638cafa0020d521.js": "/myresume/precache-manifest.7548401e08a64e26d638cafa0020d521.js",
+    "precache-manifest.8693dc58d0ec9126ca2c4a1a463db254.js": "/myresume/precache-manifest.8693dc58d0ec9126ca2c4a1a463db254.js",
     "service-worker.js": "/myresume/service-worker.js",
-    "static/css/main.957e29df.chunk.css.map": "/myresume/static/css/main.957e29df.chunk.css.map",
+    "static/css/main.24a867fa.chunk.css.map": "/myresume/static/css/main.24a867fa.chunk.css.map",
     "static/js/2.5562c606.chunk.js.LICENSE.txt": "/myresume/static/js/2.5562c606.chunk.js.LICENSE.txt",
+    "static/media/arena.png": "/myresume/static/media/arena.71191cbd.png",
     "static/media/styles.module.css": "/myresume/static/media/avatar.b3e5857c.jpg",
     "static/media/modal.module.css": "/myresume/static/media/vscode.2fc96697.jpg",
     "static/media/close-3.png": "/myresume/static/media/close-3.482fb139.png",
     "static/media/code.jpeg": "/myresume/static/media/code.a9be1b48.jpeg",
     "static/media/skills.module.css": "/myresume/static/media/react.61e3d5ce.jpg",
-    "static/media/img1.png": "/myresume/static/media/img1.93c66f72.png",
-    "static/media/img2.png": "/myresume/static/media/img2.f5f6bdb1.png",
+    "static/media/img1.png": "/myresume/static/media/img1.50c6e70a.png",
     "static/media/phone-icon-935.png": "/myresume/static/media/phone-icon-935.bd13e7af.png"
   },
   "entrypoints": [
     "static/js/runtime-main.17f9af87.js",
     "static/js/2.5562c606.chunk.js",
-    "static/css/main.957e29df.chunk.css",
-    "static/js/main.df0d75a4.chunk.js"
+    "static/css/main.24a867fa.chunk.css",
+    "static/js/main.af4e00b3.chunk.js"
   ]
 }

@@ -3,15 +3,17 @@ import NavBar from '../navBar/Nav.js';
 import styles from './portfolio.module.css';
 import Btn from '../btn/Btn.js'
 import portfolioImg1 from '../../assets/img1.png'
-import portfolioImg2 from '../../assets/img2.png'
+import portfolioImg2 from '../../assets/arena.png'
 import portfolioImg3 from '../../assets/img3.png'
+import portfolioImg4 from '../../assets/img4.png'
 import Phone from '../phone/Phone.js'
 
 function Portfolio () {
     const portfolio = [
-        {type: 'React', title: 'Prodam.kg', descr: 'Сайт для купли-продажи различных товаров', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
-        {type: 'React', title: 'Portfolio', descr: 'Портфолио (на гитхабе есть версия на чистом JS)', link: 'https://github.com/aman1998/myresume', deploy: '', img: portfolioImg2},
-        {type: 'React', title: 'Верстка', descr: 'просто верстка без логики', link: 'https://github.com/aman1998/IROKEZ', deploy: 'https://aman1998.github.io/IROKEZ/', img: portfolioImg3},
+        {type: 'React', title: 'Prodam.kg', descr: 'Дипломная работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
+        {type: 'React', title: 'Arena-games', descr: 'Реальная разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/ErlanArtykbaev/pubg-ui', deploy: 'https://arenagames.io/', img: portfolioImg2},
+        {type: 'CSS-GRID', title: 'Fanci', descr: 'Верстка', link: 'https://github.com/aman1998/IROKEZ', deploy: 'https://aman1998.github.io/IROKEZ/', img: portfolioImg3},
+        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники (в процессе)', link: 'https://github.com/aman1998/Mateev-clinic', deploy: 'https://github.com/aman1998/Mateev-clinic', img: portfolioImg4},
     ]
     return (
         <div>

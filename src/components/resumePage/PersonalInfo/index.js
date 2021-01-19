@@ -43,12 +43,10 @@ function PersonalInfo () {
         <div className={styles.wrapper}>
             <div className={styles.title}>
                 <Info />
-                <div>Доп.информация</div>
+                <div>Опыт работы</div>
             </div>
             <div className={styles.content}>
-                <div><span>Занятие в свободное время: </span>Футбол, фильмы, введение новостных блогов, компьютерные игры</div>
-                <div><span>Качества: </span>Трудолюбие, отсутствие вредных привычек, коммуникабельность, структурное
-мышление, самоорганизованность, быстрая обучаемость.</div>
+                <div><span>Mirsoft - frontend developer </span>2020-2021</div>
             </div>
         </div>
       </div>
