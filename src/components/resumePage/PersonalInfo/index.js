@@ -24,20 +24,21 @@ function PersonalInfo () {
         <div className={styles.wrapper}>
             <div className={styles.title}>
                 <Education />
-                <div>Образование</div>
+                <div>Курсы</div>
             </div>
             <div className={styles.content}>
-                <div><span>БФЭТ (2014-2017): </span>Экономика и Бухглалтерский учет</div>
-                <div><span>КНУ (2017-2022): </span>Экономика и Бухглалтерский учет (альтернативня форма обучения)</div>
+                <div><span>IT-academy: </span>Frontend-разработка</div>
             </div>
         </div>
         <div className={styles.wrapper}>
             <div className={styles.title}>
                 <Education />
-                <div>Курсы</div>
+                <div>Навыки</div>
             </div>
             <div className={styles.content}>
-                <div><span>IT-academy: </span>Frontend-разработка</div>
+                <div>Grid, Flexbox, BEM, SCSS</div>
+                <div>Javascript, React, React-Redux, Redux-Thunk, Compose</div>
+                <div>Node JS(express), React-native(expo), Docker</div>
             </div>
         </div>
         <div className={styles.wrapper}>

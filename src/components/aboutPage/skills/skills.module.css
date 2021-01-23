@@ -49,10 +49,6 @@
     opacity: 0.7;
 }
 
-.css:hover {
-    transform: none;
-}
-
 .javascript {
     background: url('./img/javascript3.jpg') center/cover;
 }

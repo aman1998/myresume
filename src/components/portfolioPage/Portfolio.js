@@ -7,13 +7,13 @@ import portfolioImg2 from '../../assets/arena.png'
 import portfolioImg3 from '../../assets/img3.png'
 import portfolioImg4 from '../../assets/img4.png'
 import Phone from '../phone/Phone.js'
-
 function Portfolio () {
     const portfolio = [
-        {type: 'React', title: 'Prodam.kg', descr: 'Дипломная работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
-        {type: 'React', title: 'Arena-games', descr: 'Реальная разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/ErlanArtykbaev/pubg-ui', deploy: 'https://arenagames.io/', img: portfolioImg2},
+        {type: 'React', title: 'Prodam.kg', descr: 'Курсовая работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
+        {type: 'Node JS', title: 'Prodam.kg', descr: 'Backend для курсовой работы (Node JS + Express)', link: 'https://github.com/aman1998/my-project-api', deploy: 'https://github.com/aman1998/my-project-api', img: portfolioImg1},
+        {type: 'React', title: 'Arena-games', descr: 'Разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/aman1998/Pubg-Arena', deploy: 'https://arenagames.io/', img: portfolioImg2},
         {type: 'CSS-GRID', title: 'Fanci', descr: 'Верстка', link: 'https://github.com/aman1998/IROKEZ', deploy: 'https://aman1998.github.io/IROKEZ/', img: portfolioImg3},
-        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники (в процессе)', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://github.com/aman1998/Dr.Mateev-Clinic', img: portfolioImg4},
+        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://github.com/aman1998/Dr.Mateev-Clinic', img: portfolioImg4},
     ]
     return (
         <div>
