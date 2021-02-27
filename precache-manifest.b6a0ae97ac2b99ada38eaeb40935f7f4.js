@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "162bdae64a2fd4bf856837313f96bfb3",
+    "revision": "67f757af5a3b813505c0061e82d13a21",
     "url": "/myresume/index.html"
   },
   {
-    "revision": "593ec635b6f935e63955",
+    "revision": "e5ce350b0c3156812ef4",
     "url": "/myresume/static/css/main.b55dc588.chunk.css"
   },
   {
-    "revision": "d93a2a56abd9234bcd12",
-    "url": "/myresume/static/js/2.ddca6b5a.chunk.js"
+    "revision": "243a6d6026ed23248f00",
+    "url": "/myresume/static/js/2.73e66b35.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/myresume/static/js/2.ddca6b5a.chunk.js.LICENSE.txt"
+    "url": "/myresume/static/js/2.73e66b35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "593ec635b6f935e63955",
-    "url": "/myresume/static/js/main.010c1b45.chunk.js"
+    "revision": "e5ce350b0c3156812ef4",
+    "url": "/myresume/static/js/main.c1313e06.chunk.js"
   },
   {
     "revision": "91547e94bcbebe550470",
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myresume/static/media/img1.50c6e70a.png"
   },
   {
-    "revision": "166568d05602306ba3e5d3a5fedf3e58",
-    "url": "/myresume/static/media/img3.166568d0.png"
-  },
-  {
     "revision": "b7c4d42e411e17c89edb0f22dea2c6b8",
     "url": "/myresume/static/media/img4.b7c4d42e.png"
   },
@@ -60,11 +56,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myresume/static/media/javascript3.0ba9ae8f.jpg"
   },
   {
+    "revision": "c447ba308b2600fd4d8225ea0973a25d",
+    "url": "/myresume/static/media/orders.c447ba30.png"
+  },
+  {
     "revision": "bd13e7af42744e3dd662e20a369771c7",
     "url": "/myresume/static/media/phone-icon-935.bd13e7af.png"
   },
   {
     "revision": "61e3d5ce3923b1a74eab3434df097990",
     "url": "/myresume/static/media/react.61e3d5ce.jpg"
+  },
+  {
+    "revision": "ba3c99c111f85c3880215bb97a758cec",
+    "url": "/myresume/static/media/resumecreator.ba3c99c1.png"
   }
 ]);
