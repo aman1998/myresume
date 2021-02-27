@@ -2,18 +2,21 @@ import React from 'react';
 import NavBar from '../navBar/Nav.js';
 import styles from './portfolio.module.css';
 import Btn from '../btn/Btn.js'
-import portfolioImg1 from '../../assets/img1.png'
-import portfolioImg2 from '../../assets/arena.png'
-import portfolioImg3 from '../../assets/img3.png'
-import portfolioImg4 from '../../assets/img4.png'
+
+import salesImg from '../../assets/img1.png'
+import arenaImg from '../../assets/arena.png'
+import clinicImg from '../../assets/img4.png'
+import resumeImg from '../../assets/resumecreator.png'
+import ordersImg from '../../assets/orders.png'
 import Phone from '../phone/Phone.js'
+
 function Portfolio () {
     const portfolio = [
-        {type: 'React', title: 'Prodam.kg', descr: 'Курсовая работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: portfolioImg1},
-        {type: 'Node JS', title: 'Prodam.kg', descr: 'Backend для курсовой работы (Node JS + Express)', link: 'https://github.com/aman1998/my-project-api', deploy: 'https://github.com/aman1998/my-project-api', img: portfolioImg1},
-        {type: 'React', title: 'Arena-games', descr: 'Разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/aman1998/Pubg-Arena', deploy: 'https://arenagames.io/', img: portfolioImg2},
-        {type: 'CSS-GRID', title: 'Fanci', descr: 'Верстка', link: 'https://github.com/aman1998/IROKEZ', deploy: 'https://aman1998.github.io/IROKEZ/', img: portfolioImg3},
-        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://github.com/aman1998/Dr.Mateev-Clinic', img: portfolioImg4},
+        {type: 'React', title: 'Arena-games', descr: 'Разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/aman1998/Pubg-Arena', deploy: 'https://arenagames.io/', img: arenaImg},
+        {type: 'React', title: 'Resume-Creator', descr: 'Генератор резюме (без адаптива)', link: 'https://github.com/aman1998/Resume-Generator', deploy: 'https://murmuring-brushlands-47558.herokuapp.com/', img: resumeImg},
+        {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://mighty-retreat-02729.herokuapp.com/', img: clinicImg},
+        {type: 'Node и Next JS', title: 'Clinic', descr: 'Небольшая практика с сортировкой, поиском и добавлением на Node и Next JS', link: 'https://github.com/aman1998/NodeJS-NextJS', deploy: 'https://still-beyond-60682.herokuapp.com/', img: ordersImg},
+        {type: 'React', title: 'Prodam.kg', descr: 'Курсовая работа', link: 'https://github.com/aman1998/prodazha', deploy: 'https://aman1998.github.io/prodazha/', img: salesImg},
     ]
     return (
         <div>
@@ -24,7 +27,7 @@ function Portfolio () {
                             {portfolio.map((item, id) => (
                                 <div className = {styles["projects__item"]} key = {id}>
                                     <div className = {styles['projects__item-text']}>
-                                        <h2 className = {styles['project__title']}>{`${item.title} / ${item.type}`}</h2>
+                                        <h2 className = {styles['project__title']}>{`${item.title}`}</h2>
                                         <div className = {styles['project__description']}>{item.descr}</div>
                                         <div style = {{display: 'flex'}} className={styles.btn}>
                                             <div className = {styles.icons}>
