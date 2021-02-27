@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.b55dc588.chunk.css",
-    "main.js": "/myresume/static/js/main.010c1b45.chunk.js",
-    "main.js.map": "/myresume/static/js/main.010c1b45.chunk.js.map",
+    "main.js": "/myresume/static/js/main.c1313e06.chunk.js",
+    "main.js.map": "/myresume/static/js/main.c1313e06.chunk.js.map",
     "runtime-main.js": "/myresume/static/js/runtime-main.17f9af87.js",
     "runtime-main.js.map": "/myresume/static/js/runtime-main.17f9af87.js.map",
-    "static/js/2.ddca6b5a.chunk.js": "/myresume/static/js/2.ddca6b5a.chunk.js",
-    "static/js/2.ddca6b5a.chunk.js.map": "/myresume/static/js/2.ddca6b5a.chunk.js.map",
+    "static/js/2.73e66b35.chunk.js": "/myresume/static/js/2.73e66b35.chunk.js",
+    "static/js/2.73e66b35.chunk.js.map": "/myresume/static/js/2.73e66b35.chunk.js.map",
     "index.html": "/myresume/index.html",
-    "precache-manifest.6a6f538eb60db0e51699fd6e51b6f1d8.js": "/myresume/precache-manifest.6a6f538eb60db0e51699fd6e51b6f1d8.js",
+    "precache-manifest.b6a0ae97ac2b99ada38eaeb40935f7f4.js": "/myresume/precache-manifest.b6a0ae97ac2b99ada38eaeb40935f7f4.js",
     "service-worker.js": "/myresume/service-worker.js",
     "static/css/main.b55dc588.chunk.css.map": "/myresume/static/css/main.b55dc588.chunk.css.map",
-    "static/js/2.ddca6b5a.chunk.js.LICENSE.txt": "/myresume/static/js/2.ddca6b5a.chunk.js.LICENSE.txt",
+    "static/js/2.73e66b35.chunk.js.LICENSE.txt": "/myresume/static/js/2.73e66b35.chunk.js.LICENSE.txt",
     "static/media/arena.png": "/myresume/static/media/arena.71191cbd.png",
     "static/media/styles.module.css": "/myresume/static/media/avatar.b3e5857c.jpg",
     "static/media/code.jpeg": "/myresume/static/media/code.a9be1b48.jpeg",
     "static/media/skills.module.css": "/myresume/static/media/react.61e3d5ce.jpg",
     "static/media/img1.png": "/myresume/static/media/img1.50c6e70a.png",
-    "static/media/img3.png": "/myresume/static/media/img3.166568d0.png",
     "static/media/img4.png": "/myresume/static/media/img4.b7c4d42e.png",
-    "static/media/phone-icon-935.png": "/myresume/static/media/phone-icon-935.bd13e7af.png"
+    "static/media/orders.png": "/myresume/static/media/orders.c447ba30.png",
+    "static/media/phone-icon-935.png": "/myresume/static/media/phone-icon-935.bd13e7af.png",
+    "static/media/resumecreator.png": "/myresume/static/media/resumecreator.ba3c99c1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.17f9af87.js",
-    "static/js/2.ddca6b5a.chunk.js",
+    "static/js/2.73e66b35.chunk.js",
     "static/css/main.b55dc588.chunk.css",
-    "static/js/main.010c1b45.chunk.js"
+    "static/js/main.c1313e06.chunk.js"
   ]
 }

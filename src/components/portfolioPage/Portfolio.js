@@ -12,7 +12,7 @@ import Phone from '../phone/Phone.js'
 
 function Portfolio () {
     const portfolio = [
-        {type: 'React', title: 'Arena-games', descr: 'Разработка на продакшн. Написан на React/Redux/Thunk (в дуэте)', link: 'https://github.com/aman1998/Pubg-Arena', deploy: 'https://arenagames.io/', img: arenaImg},
+        {type: 'React', title: 'Arena-games', descr: 'Игровая платформа для зарабатывания денег на мобильных играх', link: 'https://github.com/aman1998/Pubg-Arena', deploy: 'https://arenagames.io/', img: arenaImg},
         {type: 'React', title: 'Resume-Creator', descr: 'Генератор резюме (без адаптива)', link: 'https://github.com/aman1998/Resume-Generator', deploy: 'https://murmuring-brushlands-47558.herokuapp.com/', img: resumeImg},
         {type: 'React', title: 'Clinic', descr: 'Сайт визитка для клиники', link: 'https://github.com/aman1998/Dr.Mateev-Clinic', deploy: 'https://mighty-retreat-02729.herokuapp.com/', img: clinicImg},
         {type: 'Node и Next JS', title: 'Clinic', descr: 'Небольшая практика с сортировкой, поиском и добавлением на Node и Next JS', link: 'https://github.com/aman1998/NodeJS-NextJS', deploy: 'https://still-beyond-60682.herokuapp.com/', img: ordersImg},
